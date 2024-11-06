@@ -3369,14 +3369,17 @@ blockquote span {
   transition: all 0.4s ease;
   text-align: center;
 }
-.team .single-team img {
-  height: 200px;
-  width: 200px;
+.team .single-team .team-image img {
+  height: auto;
+  width: 100%;
+  max-width: 200px;
   border-radius: 50%;
-  display: inline-block;
+  display: block;
   background-color: #fff;
   padding: 10px;
   border: 1px solid #eee;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .team .single-team .content {
   padding: 40px 30px;

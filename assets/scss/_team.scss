@@ -19,14 +19,18 @@
 
         &:hover {}
 
-        img {
-            height: 200px;
-            width: 200px;
-            border-radius: 50%;
-            display: inline-block;
-            background-color: $white;
-            padding: 10px;
-            border: 1px solid #eee;
+        .team-image {
+            img {
+                height: auto;
+                width: 100%;
+                max-width: 200px;
+                border-radius: 50%;
+                display: block;
+                background-color: $white;
+                padding: 10px;
+                border: 1px solid #eee;
+                object-fit: cover;
+            }
         }
 
         .content {
